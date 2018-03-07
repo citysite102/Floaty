@@ -670,8 +670,8 @@ open class Floaty: UIView {
             return
         }
         
-        circleLayer.shadowOffset = CGSize(width: 1, height: 1)
-        circleLayer.shadowRadius = 2
+        circleLayer.shadowOffset = CGSize(width: 0.0, height: 3.0)
+        circleLayer.shadowRadius = 3
         circleLayer.shadowColor = UIColor.black.cgColor
         circleLayer.shadowOpacity = 0.4
     }
